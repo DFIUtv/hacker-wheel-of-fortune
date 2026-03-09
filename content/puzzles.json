@@ -1,0 +1,1673 @@
+{
+  "puzzles": [
+    {
+      "id": "wof-001",
+      "category": "Security Tool",
+      "answer": "METASPLOIT FRAMEWORK",
+      "tier": 2,
+      "letterCount": 19,
+      "wordCount": 2,
+      "notes": "Popular penetration testing framework by Rapid7"
+    },
+    {
+      "id": "wof-002",
+      "category": "Hacker Phrase",
+      "answer": "HACK THE PLANET",
+      "tier": 1,
+      "letterCount": 13,
+      "wordCount": 3,
+      "notes": "Famous line from the 1995 film Hackers"
+    },
+    {
+      "id": "wof-003",
+      "category": "Security Tool",
+      "answer": "WIRESHARK",
+      "tier": 1,
+      "letterCount": 9,
+      "wordCount": 1,
+      "notes": "Network protocol analyzer, the packet sniffer everyone knows"
+    },
+    {
+      "id": "wof-004",
+      "category": "Tech Pioneer",
+      "answer": "LINUS TORVALDS",
+      "tier": 1,
+      "letterCount": 13,
+      "wordCount": 2,
+      "notes": "Creator of Linux and Git, Finnish-American legend"
+    },
+    {
+      "id": "wof-005",
+      "category": "Protocol",
+      "answer": "TRANSPORT LAYER SECURITY",
+      "tier": 2,
+      "letterCount": 22,
+      "wordCount": 3,
+      "notes": "TLS - successor to SSL, the little green padlock"
+    },
+    {
+      "id": "wof-006",
+      "category": "Notable Hacker",
+      "answer": "KEVIN MITNICK",
+      "tier": 1,
+      "letterCount": 12,
+      "wordCount": 2,
+      "notes": "Most famous hacker of all time, social engineering legend"
+    },
+    {
+      "id": "wof-007",
+      "category": "Security Mantra",
+      "answer": "DEFENSE IN DEPTH",
+      "tier": 2,
+      "letterCount": 14,
+      "wordCount": 3,
+      "notes": "Layered security strategy, like an onion of paranoia"
+    },
+    {
+      "id": "wof-008",
+      "category": "Security Conference",
+      "answer": "BLACK HAT USA",
+      "tier": 1,
+      "letterCount": 11,
+      "wordCount": 3,
+      "notes": "Premier security conference in Las Vegas"
+    },
+    {
+      "id": "wof-009",
+      "category": "Security Tool",
+      "answer": "JOHN THE RIPPER",
+      "tier": 2,
+      "letterCount": 13,
+      "wordCount": 3,
+      "notes": "Classic password cracking tool"
+    },
+    {
+      "id": "wof-010",
+      "category": "Hacker Phrase",
+      "answer": "ZERO DAY EXPLOIT",
+      "tier": 2,
+      "letterCount": 14,
+      "wordCount": 3,
+      "notes": "Attack using a previously unknown vulnerability"
+    },
+    {
+      "id": "wof-011",
+      "category": "Tech Company",
+      "answer": "PALO ALTO NETWORKS",
+      "tier": 2,
+      "letterCount": 16,
+      "wordCount": 3,
+      "notes": "Major cybersecurity company, next-gen firewalls"
+    },
+    {
+      "id": "wof-012",
+      "category": "CTF Challenge",
+      "answer": "CAPTURE THE FLAG",
+      "tier": 1,
+      "letterCount": 14,
+      "wordCount": 3,
+      "notes": "Competitive hacking challenge format"
+    },
+    {
+      "id": "wof-013",
+      "category": "Security Tool",
+      "answer": "BURP SUITE",
+      "tier": 2,
+      "letterCount": 9,
+      "wordCount": 2,
+      "notes": "PortSwigger's web application security testing tool"
+    },
+    {
+      "id": "wof-014",
+      "category": "Infosec Role",
+      "answer": "PENETRATION TESTER",
+      "tier": 1,
+      "letterCount": 17,
+      "wordCount": 2,
+      "notes": "Professional who gets paid to break into things"
+    },
+    {
+      "id": "wof-015",
+      "category": "Hacker Phrase",
+      "answer": "BUFFER OVERFLOW ATTACK",
+      "tier": 2,
+      "letterCount": 19,
+      "wordCount": 3,
+      "notes": "Classic memory corruption vulnerability exploit"
+    },
+    {
+      "id": "wof-016",
+      "category": "Security Tool",
+      "answer": "NMAP NETWORK SCANNER",
+      "tier": 2,
+      "letterCount": 18,
+      "wordCount": 3,
+      "notes": "The network mapper, port scanning since 1997"
+    },
+    {
+      "id": "wof-017",
+      "category": "Before & After",
+      "answer": "BRUTE FORCE MULTIPLIER",
+      "tier": 2,
+      "letterCount": 20,
+      "wordCount": 3,
+      "notes": "Brute force + force multiplier mashup"
+    },
+    {
+      "id": "wof-018",
+      "category": "Rhyme Time",
+      "answer": "HACK ATTACK",
+      "tier": 1,
+      "letterCount": 10,
+      "wordCount": 2,
+      "notes": "A cyber intrusion that rhymes"
+    },
+    {
+      "id": "wof-019",
+      "category": "Hacker Phrase",
+      "answer": "SOCIAL ENGINEERING",
+      "tier": 1,
+      "letterCount": 17,
+      "wordCount": 2,
+      "notes": "Hacking the human, not the machine"
+    },
+    {
+      "id": "wof-020",
+      "category": "Security Tool",
+      "answer": "HASHCAT",
+      "tier": 2,
+      "letterCount": 7,
+      "wordCount": 1,
+      "notes": "GPU-accelerated password recovery tool"
+    },
+    {
+      "id": "wof-021",
+      "category": "Notable Hacker",
+      "answer": "ADRIAN LAMO",
+      "tier": 2,
+      "letterCount": 10,
+      "wordCount": 2,
+      "notes": "The homeless hacker, reported Chelsea Manning"
+    },
+    {
+      "id": "wof-022",
+      "category": "Protocol",
+      "answer": "SECURE SHELL",
+      "tier": 1,
+      "letterCount": 11,
+      "wordCount": 2,
+      "notes": "SSH - encrypted remote access, port 22"
+    },
+    {
+      "id": "wof-023",
+      "category": "Hacker Phrase",
+      "answer": "ADVANCED PERSISTENT THREAT",
+      "tier": 2,
+      "letterCount": 24,
+      "wordCount": 3,
+      "notes": "APT - nation-state level threat actors"
+    },
+    {
+      "id": "wof-024",
+      "category": "Tech Pioneer",
+      "answer": "GRACE HOPPER",
+      "tier": 1,
+      "letterCount": 11,
+      "wordCount": 2,
+      "notes": "Found the first actual computer bug, invented the compiler"
+    },
+    {
+      "id": "wof-025",
+      "category": "Security Conference",
+      "answer": "DEF CON",
+      "tier": 1,
+      "letterCount": 6,
+      "wordCount": 2,
+      "notes": "World's largest hacker conference, Las Vegas"
+    },
+    {
+      "id": "wof-026",
+      "category": "Hacker Phrase",
+      "answer": "MAN IN THE MIDDLE",
+      "tier": 2,
+      "letterCount": 14,
+      "wordCount": 4,
+      "notes": "Intercepting communication between two parties"
+    },
+    {
+      "id": "wof-027",
+      "category": "Security Tool",
+      "answer": "GHIDRA",
+      "tier": 2,
+      "letterCount": 6,
+      "wordCount": 1,
+      "notes": "NSA's open-source reverse engineering framework"
+    },
+    {
+      "id": "wof-028",
+      "category": "Same Letter",
+      "answer": "PACKET PARSER PROXY",
+      "tier": 2,
+      "letterCount": 17,
+      "wordCount": 3,
+      "notes": "All words start with P"
+    },
+    {
+      "id": "wof-029",
+      "category": "Hacker Phrase",
+      "answer": "RESPONSIBLE DISCLOSURE",
+      "tier": 2,
+      "letterCount": 21,
+      "wordCount": 2,
+      "notes": "Reporting vulns to vendors before going public"
+    },
+    {
+      "id": "wof-030",
+      "category": "On the Darknet",
+      "answer": "SILK ROAD MARKETPLACE",
+      "tier": 2,
+      "letterCount": 19,
+      "wordCount": 3,
+      "notes": "Ross Ulbricht's infamous darknet market"
+    },
+    {
+      "id": "wof-031",
+      "category": "Security Tool",
+      "answer": "AIRCRACK",
+      "tier": 2,
+      "letterCount": 8,
+      "wordCount": 1,
+      "notes": "WiFi security auditing suite"
+    },
+    {
+      "id": "wof-032",
+      "category": "Hacker Phrase",
+      "answer": "RETURN ORIENTED PROGRAMMING",
+      "tier": 3,
+      "letterCount": 25,
+      "wordCount": 3,
+      "notes": "ROP - exploit technique chaining existing code gadgets"
+    },
+    {
+      "id": "wof-033",
+      "category": "Tech Company",
+      "answer": "CROWDSTRIKE",
+      "tier": 1,
+      "letterCount": 11,
+      "wordCount": 1,
+      "notes": "Endpoint security company, famous for the 2024 global outage"
+    },
+    {
+      "id": "wof-034",
+      "category": "Hacker Phrase",
+      "answer": "CROSS SITE SCRIPTING",
+      "tier": 2,
+      "letterCount": 18,
+      "wordCount": 3,
+      "notes": "XSS - injecting scripts into web pages"
+    },
+    {
+      "id": "wof-035",
+      "category": "Notable Hacker",
+      "answer": "TSUTOMU SHIMOMURA",
+      "tier": 3,
+      "letterCount": 16,
+      "wordCount": 2,
+      "notes": "Tracked down Kevin Mitnick, disputed hero"
+    },
+    {
+      "id": "wof-036",
+      "category": "Security Tool",
+      "answer": "MALTEGO",
+      "tier": 2,
+      "letterCount": 7,
+      "wordCount": 1,
+      "notes": "OSINT and graphical link analysis tool"
+    },
+    {
+      "id": "wof-037",
+      "category": "Hacker Phrase",
+      "answer": "TWO FACTOR AUTHENTICATION",
+      "tier": 1,
+      "letterCount": 23,
+      "wordCount": 3,
+      "notes": "Something you know plus something you have"
+    },
+    {
+      "id": "wof-038",
+      "category": "Infosec Role",
+      "answer": "CHIEF INFORMATION SECURITY OFFICER",
+      "tier": 2,
+      "letterCount": 30,
+      "wordCount": 4,
+      "notes": "CISO - the person who gets fired after a breach"
+    },
+    {
+      "id": "wof-039",
+      "category": "Hacker Fuel",
+      "answer": "CLUB MATE",
+      "tier": 2,
+      "letterCount": 8,
+      "wordCount": 2,
+      "notes": "German caffeinated mate drink, hackspace staple worldwide"
+    },
+    {
+      "id": "wof-040",
+      "category": "Hacker Phrase",
+      "answer": "SQL INJECTION",
+      "tier": 1,
+      "letterCount": 12,
+      "wordCount": 2,
+      "notes": "Bobby Tables' favorite attack vector"
+    },
+    {
+      "id": "wof-041",
+      "category": "Security Tool",
+      "answer": "KALI LINUX",
+      "tier": 1,
+      "letterCount": 9,
+      "wordCount": 2,
+      "notes": "Penetration testing Linux distribution"
+    },
+    {
+      "id": "wof-042",
+      "category": "CVE Description",
+      "answer": "HEARTBLEED",
+      "tier": 1,
+      "letterCount": 10,
+      "wordCount": 1,
+      "notes": "OpenSSL memory disclosure bug, CVE-2014-0160"
+    },
+    {
+      "id": "wof-043",
+      "category": "Hacker Phrase",
+      "answer": "DENIAL OF SERVICE",
+      "tier": 1,
+      "letterCount": 15,
+      "wordCount": 3,
+      "notes": "Flooding a system until it gives up"
+    },
+    {
+      "id": "wof-044",
+      "category": "Protocol",
+      "answer": "DOMAIN NAME SYSTEM",
+      "tier": 1,
+      "letterCount": 16,
+      "wordCount": 3,
+      "notes": "DNS - it's always DNS"
+    },
+    {
+      "id": "wof-045",
+      "category": "Security Tool",
+      "answer": "VOLATILITY FRAMEWORK",
+      "tier": 3,
+      "letterCount": 19,
+      "wordCount": 2,
+      "notes": "Memory forensics analysis framework"
+    },
+    {
+      "id": "wof-046",
+      "category": "Hacker Venue",
+      "answer": "LAS VEGAS CONVENTION CENTER",
+      "tier": 1,
+      "letterCount": 25,
+      "wordCount": 4,
+      "notes": "Home of DEF CON and Black Hat"
+    },
+    {
+      "id": "wof-047",
+      "category": "Hacker Phrase",
+      "answer": "PRIVILEGE ESCALATION",
+      "tier": 2,
+      "letterCount": 19,
+      "wordCount": 2,
+      "notes": "Going from user to root, the hacker's favorite climb"
+    },
+    {
+      "id": "wof-048",
+      "category": "Tech Pioneer",
+      "answer": "ALAN TURING",
+      "tier": 1,
+      "letterCount": 10,
+      "wordCount": 2,
+      "notes": "Father of computer science, codebreaker, tragic hero"
+    },
+    {
+      "id": "wof-049",
+      "category": "CVE Description",
+      "answer": "LOG FOUR SHELL",
+      "tier": 2,
+      "letterCount": 12,
+      "wordCount": 3,
+      "notes": "Log4j RCE vulnerability, CVE-2021-44228, ruined Christmas 2021"
+    },
+    {
+      "id": "wof-050",
+      "category": "Hacker Phrase",
+      "answer": "CERTIFICATE TRANSPARENCY LOG",
+      "tier": 3,
+      "letterCount": 27,
+      "wordCount": 3,
+      "notes": "Public record of issued TLS certificates"
+    },
+    {
+      "id": "wof-051",
+      "category": "Hacker Phrase",
+      "answer": "HAVE I BEEN PWNED",
+      "tier": 1,
+      "letterCount": 14,
+      "wordCount": 4,
+      "notes": "Troy Hunt's breach notification service"
+    },
+    {
+      "id": "wof-052",
+      "category": "Hacker Phrase",
+      "answer": "READ THE FUCKING MANUAL",
+      "tier": 2,
+      "letterCount": 20,
+      "wordCount": 4,
+      "notes": "RTFM - the timeless advice nobody follows"
+    },
+    {
+      "id": "wof-053",
+      "category": "CVE Description",
+      "answer": "SHELLSHOCK",
+      "tier": 1,
+      "letterCount": 10,
+      "wordCount": 1,
+      "notes": "Bash vulnerability CVE-2014-6271"
+    },
+    {
+      "id": "wof-054",
+      "category": "Hacker Phrase",
+      "answer": "TRUST BUT VERIFY",
+      "tier": 1,
+      "letterCount": 14,
+      "wordCount": 3,
+      "notes": "Zero trust mantra, originally Reagan-era diplomacy"
+    },
+    {
+      "id": "wof-055",
+      "category": "Tech Company",
+      "answer": "RAPID SEVEN",
+      "tier": 2,
+      "letterCount": 10,
+      "wordCount": 2,
+      "notes": "Makers of Metasploit, InsightVM, and other security tools"
+    },
+    {
+      "id": "wof-056",
+      "category": "Hacker Phrase",
+      "answer": "THE CALL IS COMING FROM INSIDE THE NETWORK",
+      "tier": 3,
+      "letterCount": 34,
+      "wordCount": 9,
+      "notes": "Insider threat joke riffing on classic horror movie line"
+    },
+    {
+      "id": "wof-057",
+      "category": "Security Tool",
+      "answer": "COBALT STRIKE",
+      "tier": 2,
+      "letterCount": 12,
+      "wordCount": 2,
+      "notes": "Commercial red team C2 framework, beloved by APTs"
+    },
+    {
+      "id": "wof-058",
+      "category": "Hacker Phrase",
+      "answer": "MOVE FAST AND BREAK THINGS",
+      "tier": 1,
+      "letterCount": 22,
+      "wordCount": 5,
+      "notes": "Facebook's old motto, now universally mocked"
+    },
+    {
+      "id": "wof-059",
+      "category": "Notable Hacker",
+      "answer": "EDWARD SNOWDEN",
+      "tier": 1,
+      "letterCount": 13,
+      "wordCount": 2,
+      "notes": "NSA whistleblower, now Russian citizen"
+    },
+    {
+      "id": "wof-060",
+      "category": "CVE Description",
+      "answer": "ETERNAL BLUE",
+      "tier": 2,
+      "letterCount": 11,
+      "wordCount": 2,
+      "notes": "NSA exploit leaked by Shadow Brokers, used in WannaCry"
+    },
+    {
+      "id": "wof-061",
+      "category": "Hacker Phrase",
+      "answer": "GARBAGE IN GARBAGE OUT",
+      "tier": 1,
+      "letterCount": 19,
+      "wordCount": 4,
+      "notes": "Classic computing principle - GIGO"
+    },
+    {
+      "id": "wof-062",
+      "category": "Hacker Phrase",
+      "answer": "INFORMATION WANTS TO BE FREE",
+      "tier": 2,
+      "letterCount": 24,
+      "wordCount": 5,
+      "notes": "Stewart Brand quote, hacker ethos distilled"
+    },
+    {
+      "id": "wof-063",
+      "category": "Before & After",
+      "answer": "FIREWALL STREET JOURNAL",
+      "tier": 2,
+      "letterCount": 21,
+      "wordCount": 3,
+      "notes": "Firewall + Wall Street Journal mashup"
+    },
+    {
+      "id": "wof-064",
+      "category": "Hacker Phrase",
+      "answer": "NEVER TRUST USER INPUT",
+      "tier": 2,
+      "letterCount": 19,
+      "wordCount": 4,
+      "notes": "Fundamental security principle"
+    },
+    {
+      "id": "wof-065",
+      "category": "Security Tool",
+      "answer": "SHODAN",
+      "tier": 2,
+      "letterCount": 6,
+      "wordCount": 1,
+      "notes": "Search engine for internet-connected devices"
+    },
+    {
+      "id": "wof-066",
+      "category": "Notable Hacker",
+      "answer": "SAMY KAMKAR",
+      "tier": 2,
+      "letterCount": 10,
+      "wordCount": 2,
+      "notes": "MySpace worm creator, hardware hacker extraordinaire"
+    },
+    {
+      "id": "wof-067",
+      "category": "Protocol",
+      "answer": "BORDER GATEWAY PROTOCOL",
+      "tier": 2,
+      "letterCount": 21,
+      "wordCount": 3,
+      "notes": "BGP - the internet's routing protocol, held together with trust and prayers"
+    },
+    {
+      "id": "wof-068",
+      "category": "Hacker Phrase",
+      "answer": "SECURITY THROUGH OBSCURITY",
+      "tier": 2,
+      "letterCount": 24,
+      "wordCount": 3,
+      "notes": "The anti-pattern we all love to hate"
+    },
+    {
+      "id": "wof-069",
+      "category": "Tech Company",
+      "answer": "MANDIANT",
+      "tier": 2,
+      "letterCount": 8,
+      "wordCount": 1,
+      "notes": "Incident response firm, now part of Google Cloud"
+    },
+    {
+      "id": "wof-070",
+      "category": "CVE Description",
+      "answer": "SPECTRE AND MELTDOWN",
+      "tier": 2,
+      "letterCount": 18,
+      "wordCount": 3,
+      "notes": "CPU speculative execution vulnerabilities, 2018"
+    },
+    {
+      "id": "wof-071",
+      "category": "Security Tool",
+      "answer": "BLOODHOUND",
+      "tier": 2,
+      "letterCount": 10,
+      "wordCount": 1,
+      "notes": "Active Directory attack path mapping tool"
+    },
+    {
+      "id": "wof-072",
+      "category": "Hacker Phrase",
+      "answer": "ASSUME BREACH",
+      "tier": 2,
+      "letterCount": 12,
+      "wordCount": 2,
+      "notes": "Modern security posture - assume you're already compromised"
+    },
+    {
+      "id": "wof-073",
+      "category": "Tech Pioneer",
+      "answer": "RICHARD STALLMAN",
+      "tier": 2,
+      "letterCount": 15,
+      "wordCount": 2,
+      "notes": "GNU Project founder, free software absolutist"
+    },
+    {
+      "id": "wof-074",
+      "category": "Hacker Phrase",
+      "answer": "PATCH TUESDAY",
+      "tier": 1,
+      "letterCount": 12,
+      "wordCount": 2,
+      "notes": "Microsoft's monthly update release day"
+    },
+    {
+      "id": "wof-075",
+      "category": "Security Mantra",
+      "answer": "LEAST PRIVILEGE",
+      "tier": 2,
+      "letterCount": 14,
+      "wordCount": 2,
+      "notes": "Principle of minimal access rights"
+    },
+    {
+      "id": "wof-076",
+      "category": "Hacker Phrase",
+      "answer": "SUPPLY CHAIN ATTACK",
+      "tier": 2,
+      "letterCount": 17,
+      "wordCount": 3,
+      "notes": "Compromising software through its dependencies"
+    },
+    {
+      "id": "wof-077",
+      "category": "Before & After",
+      "answer": "TROJAN HORSE POWER",
+      "tier": 2,
+      "letterCount": 16,
+      "wordCount": 3,
+      "notes": "Trojan horse + horsepower mashup"
+    },
+    {
+      "id": "wof-078",
+      "category": "Notable Hacker",
+      "answer": "BARNABY JACK",
+      "tier": 2,
+      "letterCount": 11,
+      "wordCount": 2,
+      "notes": "Made ATMs spit cash on stage at Black Hat"
+    },
+    {
+      "id": "wof-079",
+      "category": "Hacker Phrase",
+      "answer": "ZERO TRUST ARCHITECTURE",
+      "tier": 2,
+      "letterCount": 21,
+      "wordCount": 3,
+      "notes": "Never trust, always verify security model"
+    },
+    {
+      "id": "wof-080",
+      "category": "Security Tool",
+      "answer": "MIMIKATZ",
+      "tier": 3,
+      "letterCount": 8,
+      "wordCount": 1,
+      "notes": "Windows credential extraction tool by gentilkiwi"
+    },
+    {
+      "id": "wof-081",
+      "category": "CVE Description",
+      "answer": "SOLAR WINDS",
+      "tier": 1,
+      "letterCount": 10,
+      "wordCount": 2,
+      "notes": "Massive supply chain attack discovered December 2020"
+    },
+    {
+      "id": "wof-082",
+      "category": "Hacker Phrase",
+      "answer": "LATERAL MOVEMENT",
+      "tier": 2,
+      "letterCount": 15,
+      "wordCount": 2,
+      "notes": "Moving between systems after initial compromise"
+    },
+    {
+      "id": "wof-083",
+      "category": "Protocol",
+      "answer": "SIMPLE MAIL TRANSFER PROTOCOL",
+      "tier": 2,
+      "letterCount": 26,
+      "wordCount": 4,
+      "notes": "SMTP - email delivery since 1982, still trusting everyone"
+    },
+    {
+      "id": "wof-084",
+      "category": "Hacker Phrase",
+      "answer": "DONT ROLL YOUR OWN CRYPTO",
+      "tier": 2,
+      "letterCount": 22,
+      "wordCount": 6,
+      "notes": "The first rule of cryptography club"
+    },
+    {
+      "id": "wof-085",
+      "category": "Rhyme Time",
+      "answer": "BYTE FIGHT",
+      "tier": 1,
+      "letterCount": 9,
+      "wordCount": 2,
+      "notes": "A digital altercation"
+    },
+    {
+      "id": "wof-086",
+      "category": "Tech Company",
+      "answer": "FORTINET",
+      "tier": 2,
+      "letterCount": 8,
+      "wordCount": 1,
+      "notes": "Firewall and security appliance vendor"
+    },
+    {
+      "id": "wof-087",
+      "category": "Hacker Phrase",
+      "answer": "RUBBER DUCKY ATTACK",
+      "tier": 2,
+      "letterCount": 17,
+      "wordCount": 3,
+      "notes": "USB HID attack device disguised as a flash drive"
+    },
+    {
+      "id": "wof-088",
+      "category": "Notable Hacker",
+      "answer": "AARON SWARTZ",
+      "tier": 2,
+      "letterCount": 11,
+      "wordCount": 2,
+      "notes": "Co-creator of RSS, Reddit, internet activist"
+    },
+    {
+      "id": "wof-089",
+      "category": "Hacker Phrase",
+      "answer": "SANDBOX ESCAPE",
+      "tier": 2,
+      "letterCount": 13,
+      "wordCount": 2,
+      "notes": "Breaking out of an isolated execution environment"
+    },
+    {
+      "id": "wof-090",
+      "category": "Security Tool",
+      "answer": "NESSUS",
+      "tier": 2,
+      "letterCount": 6,
+      "wordCount": 1,
+      "notes": "Vulnerability scanner by Tenable"
+    },
+    {
+      "id": "wof-091",
+      "category": "Before & After",
+      "answer": "BACK DOOR DASH",
+      "tier": 2,
+      "letterCount": 12,
+      "wordCount": 3,
+      "notes": "Backdoor + DoorDash mashup"
+    },
+    {
+      "id": "wof-092",
+      "category": "CVE Description",
+      "answer": "DIRTY COW",
+      "tier": 2,
+      "letterCount": 8,
+      "wordCount": 2,
+      "notes": "Linux kernel privilege escalation, CVE-2016-5195"
+    },
+    {
+      "id": "wof-093",
+      "category": "Hacker Phrase",
+      "answer": "KILL CHAIN",
+      "tier": 2,
+      "letterCount": 9,
+      "wordCount": 2,
+      "notes": "Lockheed Martin's cyber attack lifecycle model"
+    },
+    {
+      "id": "wof-094",
+      "category": "Hacker Phrase",
+      "answer": "LIVING OFF THE LAND",
+      "tier": 2,
+      "letterCount": 16,
+      "wordCount": 5,
+      "notes": "Using built-in OS tools for attacks, no malware needed"
+    },
+    {
+      "id": "wof-095",
+      "category": "Protocol",
+      "answer": "HYPERTEXT TRANSFER PROTOCOL",
+      "tier": 1,
+      "letterCount": 25,
+      "wordCount": 3,
+      "notes": "HTTP - the web's foundation"
+    },
+    {
+      "id": "wof-096",
+      "category": "Security Tool",
+      "answer": "SQLMAP",
+      "tier": 2,
+      "letterCount": 6,
+      "wordCount": 1,
+      "notes": "Automatic SQL injection and database takeover tool"
+    },
+    {
+      "id": "wof-097",
+      "category": "Notable Hacker",
+      "answer": "DAN KAMINSKY",
+      "tier": 2,
+      "letterCount": 11,
+      "wordCount": 2,
+      "notes": "Found the DNS cache poisoning flaw, beloved community figure"
+    },
+    {
+      "id": "wof-098",
+      "category": "Hacker Phrase",
+      "answer": "CREDENTIAL STUFFING",
+      "tier": 2,
+      "letterCount": 18,
+      "wordCount": 2,
+      "notes": "Using breached password lists to try other services"
+    },
+    {
+      "id": "wof-099",
+      "category": "Same Letter",
+      "answer": "BUFFER BYPASS BUG",
+      "tier": 2,
+      "letterCount": 15,
+      "wordCount": 3,
+      "notes": "All words start with B"
+    },
+    {
+      "id": "wof-100",
+      "category": "Hacker Phrase",
+      "answer": "OPEN SOURCE INTELLIGENCE",
+      "tier": 2,
+      "letterCount": 22,
+      "wordCount": 3,
+      "notes": "OSINT - gathering intel from public sources"
+    },
+    {
+      "id": "wof-101",
+      "category": "Tech Pioneer",
+      "answer": "BRUCE SCHNEIER",
+      "tier": 2,
+      "letterCount": 13,
+      "wordCount": 2,
+      "notes": "Cryptographer, security author, the Chuck Norris of infosec"
+    },
+    {
+      "id": "wof-102",
+      "category": "CVE Description",
+      "answer": "PRINT NIGHTMARE",
+      "tier": 2,
+      "letterCount": 14,
+      "wordCount": 2,
+      "notes": "Windows Print Spooler RCE, CVE-2021-34527"
+    },
+    {
+      "id": "wof-103",
+      "category": "Hacker Phrase",
+      "answer": "THREAT MODELING",
+      "tier": 2,
+      "letterCount": 14,
+      "wordCount": 2,
+      "notes": "Structured approach to identifying security risks"
+    },
+    {
+      "id": "wof-104",
+      "category": "Security Tool",
+      "answer": "RESPONDER",
+      "tier": 3,
+      "letterCount": 9,
+      "wordCount": 1,
+      "notes": "LLMNR/NBT-NS poisoner for credential harvesting"
+    },
+    {
+      "id": "wof-105",
+      "category": "Hacker Phrase",
+      "answer": "INCIDENT RESPONSE PLAN",
+      "tier": 2,
+      "letterCount": 20,
+      "wordCount": 3,
+      "notes": "The document nobody reads until everything is on fire"
+    },
+    {
+      "id": "wof-106",
+      "category": "Tech Company",
+      "answer": "SENTINEL ONE",
+      "tier": 2,
+      "letterCount": 11,
+      "wordCount": 2,
+      "notes": "AI-powered endpoint security platform"
+    },
+    {
+      "id": "wof-107",
+      "category": "Hacker Phrase",
+      "answer": "WATERING HOLE ATTACK",
+      "tier": 2,
+      "letterCount": 18,
+      "wordCount": 3,
+      "notes": "Compromising a website frequented by the target"
+    },
+    {
+      "id": "wof-108",
+      "category": "Before & After",
+      "answer": "WORM HOLE PUNCH",
+      "tier": 2,
+      "letterCount": 13,
+      "wordCount": 3,
+      "notes": "Wormhole + hole punch mashup"
+    },
+    {
+      "id": "wof-109",
+      "category": "Security Mantra",
+      "answer": "NEVER TRUST ALWAYS VERIFY",
+      "tier": 2,
+      "letterCount": 22,
+      "wordCount": 4,
+      "notes": "Zero trust motto"
+    },
+    {
+      "id": "wof-110",
+      "category": "Notable Hacker",
+      "answer": "MARCUS HUTCHINS",
+      "tier": 2,
+      "letterCount": 14,
+      "wordCount": 2,
+      "notes": "MalwareTech - stopped WannaCry by registering the kill switch domain"
+    },
+    {
+      "id": "wof-111",
+      "category": "Hacker Phrase",
+      "answer": "ATTACK SURFACE",
+      "tier": 2,
+      "letterCount": 13,
+      "wordCount": 2,
+      "notes": "Total exposure of a system to potential threats"
+    },
+    {
+      "id": "wof-112",
+      "category": "On the Darknet",
+      "answer": "THE ONION ROUTER",
+      "tier": 2,
+      "letterCount": 14,
+      "wordCount": 3,
+      "notes": "TOR - anonymous communication network"
+    },
+    {
+      "id": "wof-113",
+      "category": "Security Tool",
+      "answer": "ELASTIC SECURITY",
+      "tier": 2,
+      "letterCount": 15,
+      "wordCount": 2,
+      "notes": "SIEM built on the Elastic Stack"
+    },
+    {
+      "id": "wof-114",
+      "category": "Hacker Phrase",
+      "answer": "SHIFT LEFT ON SECURITY",
+      "tier": 2,
+      "letterCount": 19,
+      "wordCount": 4,
+      "notes": "DevSecOps mantra - security earlier in the pipeline"
+    },
+    {
+      "id": "wof-115",
+      "category": "CVE Description",
+      "answer": "WANNACRY",
+      "tier": 1,
+      "letterCount": 8,
+      "wordCount": 1,
+      "notes": "Global ransomware attack using EternalBlue, May 2017"
+    },
+    {
+      "id": "wof-116",
+      "category": "Hacker Phrase",
+      "answer": "PENETRATION TESTING",
+      "tier": 1,
+      "letterCount": 18,
+      "wordCount": 2,
+      "notes": "Authorized simulated attack on a system"
+    },
+    {
+      "id": "wof-117",
+      "category": "Rhyme Time",
+      "answer": "PHISH DISH",
+      "tier": 2,
+      "letterCount": 8,
+      "wordCount": 2,
+      "notes": "A platter of social engineering attempts"
+    },
+    {
+      "id": "wof-118",
+      "category": "Protocol",
+      "answer": "LIGHTWEIGHT DIRECTORY ACCESS PROTOCOL",
+      "tier": 3,
+      "letterCount": 33,
+      "wordCount": 4,
+      "notes": "LDAP - the backbone of enterprise identity"
+    },
+    {
+      "id": "wof-119",
+      "category": "Security Tool",
+      "answer": "AUTOPSY",
+      "tier": 2,
+      "letterCount": 7,
+      "wordCount": 1,
+      "notes": "Open source digital forensics platform"
+    },
+    {
+      "id": "wof-120",
+      "category": "Tech Company",
+      "answer": "CHECK POINT SOFTWARE",
+      "tier": 2,
+      "letterCount": 18,
+      "wordCount": 3,
+      "notes": "Israeli cybersecurity company, firewalls since the 90s"
+    },
+    {
+      "id": "wof-121",
+      "category": "Hacker Phrase",
+      "answer": "CANARY IN THE COAL MINE",
+      "tier": 2,
+      "letterCount": 19,
+      "wordCount": 6,
+      "notes": "Early warning system metaphor used in security"
+    },
+    {
+      "id": "wof-122",
+      "category": "Same Letter",
+      "answer": "STACK SMASHING SHELLCODE",
+      "tier": 3,
+      "letterCount": 22,
+      "wordCount": 3,
+      "notes": "All words start with S"
+    },
+    {
+      "id": "wof-123",
+      "category": "Before & After",
+      "answer": "SPEAR PHISHING EXPEDITION",
+      "tier": 2,
+      "letterCount": 23,
+      "wordCount": 3,
+      "notes": "Spear phishing + fishing expedition mashup"
+    },
+    {
+      "id": "wof-124",
+      "category": "Security Tool",
+      "answer": "IMPACKET",
+      "tier": 3,
+      "letterCount": 8,
+      "wordCount": 1,
+      "notes": "Python collection for working with network protocols"
+    },
+    {
+      "id": "wof-125",
+      "category": "Hacker Phrase",
+      "answer": "ROOT CAUSE ANALYSIS",
+      "tier": 2,
+      "letterCount": 17,
+      "wordCount": 3,
+      "notes": "Finding the real reason shit broke"
+    },
+    {
+      "id": "wof-126",
+      "category": "Tech Pioneer",
+      "answer": "WHITFIELD DIFFIE",
+      "tier": 3,
+      "letterCount": 15,
+      "wordCount": 2,
+      "notes": "Co-inventor of public key cryptography"
+    },
+    {
+      "id": "wof-127",
+      "category": "CVE Description",
+      "answer": "BLUE KEEP",
+      "tier": 2,
+      "letterCount": 8,
+      "wordCount": 2,
+      "notes": "RDP vulnerability CVE-2019-0708, wormable"
+    },
+    {
+      "id": "wof-128",
+      "category": "Hacker Phrase",
+      "answer": "SECURITY IS A PROCESS NOT A PRODUCT",
+      "tier": 3,
+      "letterCount": 28,
+      "wordCount": 7,
+      "notes": "Bruce Schneier quote"
+    },
+    {
+      "id": "wof-129",
+      "category": "CTF Challenge",
+      "answer": "REVERSE ENGINEERING",
+      "tier": 1,
+      "letterCount": 18,
+      "wordCount": 2,
+      "notes": "Analyzing compiled code to understand how it works"
+    },
+    {
+      "id": "wof-130",
+      "category": "Hacker Phrase",
+      "answer": "PACKET SNIFFING",
+      "tier": 1,
+      "letterCount": 14,
+      "wordCount": 2,
+      "notes": "Capturing and analyzing network traffic"
+    },
+    {
+      "id": "wof-131",
+      "category": "Tech Company",
+      "answer": "SPLUNK",
+      "tier": 1,
+      "letterCount": 6,
+      "wordCount": 1,
+      "notes": "SIEM and observability platform, now Cisco"
+    },
+    {
+      "id": "wof-132",
+      "category": "Hacker Phrase",
+      "answer": "JUST IN TIME ACCESS",
+      "tier": 2,
+      "letterCount": 16,
+      "wordCount": 4,
+      "notes": "Temporary elevated permissions, revoked after use"
+    },
+    {
+      "id": "wof-133",
+      "category": "Security Tool",
+      "answer": "CENSYS",
+      "tier": 3,
+      "letterCount": 6,
+      "wordCount": 1,
+      "notes": "Internet-wide scanning and asset discovery platform"
+    },
+    {
+      "id": "wof-134",
+      "category": "Before & After",
+      "answer": "DARK WEB BROWSER",
+      "tier": 1,
+      "letterCount": 14,
+      "wordCount": 3,
+      "notes": "Dark web + web browser mashup"
+    },
+    {
+      "id": "wof-135",
+      "category": "Hacker Phrase",
+      "answer": "THERE IS NO CLOUD JUST SOMEONE ELSES COMPUTER",
+      "tier": 3,
+      "letterCount": 38,
+      "wordCount": 8,
+      "notes": "Classic sticker/t-shirt phrase about cloud computing"
+    },
+    {
+      "id": "wof-136",
+      "category": "Hacker Fuel",
+      "answer": "ENERGY DRINK",
+      "tier": 1,
+      "letterCount": 11,
+      "wordCount": 2,
+      "notes": "The lifeblood of every hackathon and CTF"
+    },
+    {
+      "id": "wof-137",
+      "category": "Security Tool",
+      "answer": "BINARY NINJA",
+      "tier": 3,
+      "letterCount": 11,
+      "wordCount": 2,
+      "notes": "Reverse engineering platform, IDA Pro competitor"
+    },
+    {
+      "id": "wof-138",
+      "category": "Rhyme Time",
+      "answer": "SPAM SCAM",
+      "tier": 1,
+      "letterCount": 7,
+      "wordCount": 2,
+      "notes": "An unsolicited fraudulent email"
+    },
+    {
+      "id": "wof-139",
+      "category": "Hacker Phrase",
+      "answer": "SHADOW IT",
+      "tier": 2,
+      "letterCount": 8,
+      "wordCount": 2,
+      "notes": "Unauthorized technology used within an organization"
+    },
+    {
+      "id": "wof-140",
+      "category": "Tech Company",
+      "answer": "CARBON BLACK",
+      "tier": 2,
+      "letterCount": 11,
+      "wordCount": 2,
+      "notes": "Endpoint security company, now VMware Carbon Black"
+    },
+    {
+      "id": "wof-141",
+      "category": "Security Conference",
+      "answer": "RSA CONFERENCE",
+      "tier": 1,
+      "letterCount": 13,
+      "wordCount": 2,
+      "notes": "Largest cybersecurity conference, vendor-heavy"
+    },
+    {
+      "id": "wof-142",
+      "category": "Hacker Phrase",
+      "answer": "DIGITAL FORENSICS",
+      "tier": 2,
+      "letterCount": 16,
+      "wordCount": 2,
+      "notes": "The science of finding out what happened after it all went wrong"
+    },
+    {
+      "id": "wof-143",
+      "category": "Protocol",
+      "answer": "INTERNET PROTOCOL",
+      "tier": 1,
+      "letterCount": 16,
+      "wordCount": 2,
+      "notes": "IP - the backbone of the internet"
+    },
+    {
+      "id": "wof-144",
+      "category": "Hacker Phrase",
+      "answer": "HONEYPOT",
+      "tier": 1,
+      "letterCount": 8,
+      "wordCount": 1,
+      "notes": "Decoy system designed to attract and detect attackers"
+    },
+    {
+      "id": "wof-145",
+      "category": "Before & After",
+      "answer": "PHISHING NET WORTH",
+      "tier": 2,
+      "letterCount": 16,
+      "wordCount": 3,
+      "notes": "Phishing net + net worth mashup"
+    },
+    {
+      "id": "wof-146",
+      "category": "Notable Hacker",
+      "answer": "CHARLIE MILLER",
+      "tier": 2,
+      "letterCount": 13,
+      "wordCount": 2,
+      "notes": "First to remotely hack an iPhone, NSA alum, car hacker"
+    },
+    {
+      "id": "wof-147",
+      "category": "Hacker Phrase",
+      "answer": "COMMAND AND CONTROL",
+      "tier": 2,
+      "letterCount": 17,
+      "wordCount": 3,
+      "notes": "C2 - the server that talks to your botnet"
+    },
+    {
+      "id": "wof-148",
+      "category": "Security Tool",
+      "answer": "SNORT",
+      "tier": 2,
+      "letterCount": 5,
+      "wordCount": 1,
+      "notes": "Open source intrusion detection system. Short puzzle."
+    },
+    {
+      "id": "wof-149",
+      "category": "Hacker Phrase",
+      "answer": "THREAT INTELLIGENCE",
+      "tier": 2,
+      "letterCount": 18,
+      "wordCount": 2,
+      "notes": "Evidence-based knowledge about existing or emerging threats"
+    },
+    {
+      "id": "wof-150",
+      "category": "Tech Company",
+      "answer": "TENABLE",
+      "tier": 2,
+      "letterCount": 7,
+      "wordCount": 1,
+      "notes": "Vulnerability management, makers of Nessus"
+    },
+    {
+      "id": "wof-151",
+      "category": "Hacker Phrase",
+      "answer": "BUFFER OVERFLOW",
+      "tier": 1,
+      "letterCount": 14,
+      "wordCount": 2,
+      "notes": "Classic memory corruption vulnerability"
+    },
+    {
+      "id": "wof-152",
+      "category": "Infosec Role",
+      "answer": "SECURITY ANALYST",
+      "tier": 1,
+      "letterCount": 15,
+      "wordCount": 2,
+      "notes": "First line of defense in the SOC"
+    },
+    {
+      "id": "wof-153",
+      "category": "Hacker Phrase",
+      "answer": "YOLO MODE DEPLOY",
+      "tier": 2,
+      "letterCount": 14,
+      "wordCount": 3,
+      "notes": "Pushing to production on a Friday with no tests"
+    },
+    {
+      "id": "wof-154",
+      "category": "CVE Description",
+      "answer": "ROWHAMMER",
+      "tier": 3,
+      "letterCount": 9,
+      "wordCount": 1,
+      "notes": "DRAM disturbance error that flips bits in adjacent rows"
+    },
+    {
+      "id": "wof-155",
+      "category": "Before & After",
+      "answer": "HONEY POT LUCK DINNER",
+      "tier": 2,
+      "letterCount": 18,
+      "wordCount": 4,
+      "notes": "Honeypot + potluck dinner mashup"
+    },
+    {
+      "id": "wof-156",
+      "category": "Hacker Phrase",
+      "answer": "RUBBER STAMP AUDIT",
+      "tier": 3,
+      "letterCount": 16,
+      "wordCount": 3,
+      "notes": "A compliance audit that finds nothing because it looks at nothing"
+    },
+    {
+      "id": "wof-157",
+      "category": "Security Tool",
+      "answer": "RADARE TWO",
+      "tier": 3,
+      "letterCount": 9,
+      "wordCount": 2,
+      "notes": "Open source reverse engineering framework, r2"
+    },
+    {
+      "id": "wof-158",
+      "category": "Hacker Phrase",
+      "answer": "DATA EXFILTRATION",
+      "tier": 2,
+      "letterCount": 16,
+      "wordCount": 2,
+      "notes": "Unauthorized transfer of data from a system"
+    },
+    {
+      "id": "wof-159",
+      "category": "Rhyme Time",
+      "answer": "CRYPT SCRIPT",
+      "tier": 2,
+      "letterCount": 11,
+      "wordCount": 2,
+      "notes": "An encrypted program"
+    },
+    {
+      "id": "wof-160",
+      "category": "Tech Pioneer",
+      "answer": "DENNIS RITCHIE",
+      "tier": 2,
+      "letterCount": 13,
+      "wordCount": 2,
+      "notes": "Creator of C and co-creator of Unix"
+    }
+  ],
+  "tossups": [
+    {
+      "id": "wof-tu-001",
+      "category": "Security Tool",
+      "answer": "WIRESHARK",
+      "tier": 1,
+      "letterCount": 9,
+      "wordCount": 1,
+      "notes": "Toss-up: widely known packet analyzer"
+    },
+    {
+      "id": "wof-tu-002",
+      "category": "Hacker Phrase",
+      "answer": "DARK WEB",
+      "tier": 1,
+      "letterCount": 7,
+      "wordCount": 2,
+      "notes": "Toss-up: two common words"
+    },
+    {
+      "id": "wof-tu-003",
+      "category": "Security Tool",
+      "answer": "FIREWALL",
+      "tier": 1,
+      "letterCount": 8,
+      "wordCount": 1,
+      "notes": "Toss-up: fundamental security concept"
+    },
+    {
+      "id": "wof-tu-004",
+      "category": "Hacker Phrase",
+      "answer": "OPEN SOURCE",
+      "tier": 1,
+      "letterCount": 10,
+      "wordCount": 2,
+      "notes": "Toss-up: universally known"
+    },
+    {
+      "id": "wof-tu-005",
+      "category": "CVE Description",
+      "answer": "HEARTBLEED",
+      "tier": 1,
+      "letterCount": 10,
+      "wordCount": 1,
+      "notes": "Toss-up: famous vulnerability name"
+    },
+    {
+      "id": "wof-tu-006",
+      "category": "Tech Company",
+      "answer": "CLOUDFLARE",
+      "tier": 1,
+      "letterCount": 10,
+      "wordCount": 1,
+      "notes": "Toss-up: well-known CDN and security company"
+    },
+    {
+      "id": "wof-tu-007",
+      "category": "Hacker Phrase",
+      "answer": "RANSOMWARE",
+      "tier": 1,
+      "letterCount": 10,
+      "wordCount": 1,
+      "notes": "Toss-up: in the news constantly"
+    },
+    {
+      "id": "wof-tu-008",
+      "category": "Protocol",
+      "answer": "BLUETOOTH",
+      "tier": 1,
+      "letterCount": 9,
+      "wordCount": 1,
+      "notes": "Toss-up: everyone knows it"
+    },
+    {
+      "id": "wof-tu-009",
+      "category": "Hacker Phrase",
+      "answer": "MALWARE",
+      "tier": 1,
+      "letterCount": 7,
+      "wordCount": 1,
+      "notes": "Toss-up: basic security term"
+    },
+    {
+      "id": "wof-tu-010",
+      "category": "Security Tool",
+      "answer": "METASPLOIT",
+      "tier": 1,
+      "letterCount": 10,
+      "wordCount": 1,
+      "notes": "Toss-up: famous pentest framework"
+    },
+    {
+      "id": "wof-tu-011",
+      "category": "Hacker Phrase",
+      "answer": "ENCRYPTION",
+      "tier": 1,
+      "letterCount": 10,
+      "wordCount": 1,
+      "notes": "Toss-up: fundamental concept"
+    },
+    {
+      "id": "wof-tu-012",
+      "category": "Tech Company",
+      "answer": "KASPERSKY",
+      "tier": 1,
+      "letterCount": 9,
+      "wordCount": 1,
+      "notes": "Toss-up: well-known antivirus company"
+    },
+    {
+      "id": "wof-tu-013",
+      "category": "Hacker Phrase",
+      "answer": "DEEP FAKE",
+      "tier": 1,
+      "letterCount": 8,
+      "wordCount": 2,
+      "notes": "Toss-up: trending AI/security topic"
+    },
+    {
+      "id": "wof-tu-014",
+      "category": "Protocol",
+      "answer": "ETHERNET",
+      "tier": 1,
+      "letterCount": 8,
+      "wordCount": 1,
+      "notes": "Toss-up: networking basic"
+    },
+    {
+      "id": "wof-tu-015",
+      "category": "Hacker Phrase",
+      "answer": "KEYLOGGER",
+      "tier": 1,
+      "letterCount": 9,
+      "wordCount": 1,
+      "notes": "Toss-up: records your keystrokes"
+    }
+  ],
+  "bonus": [
+    {
+      "id": "wof-bn-001",
+      "category": "Security Tool",
+      "answer": "BLOODHOUND",
+      "tier": 2,
+      "letterCount": 10,
+      "wordCount": 1,
+      "notes": "Bonus: AD attack path tool, tricky with RSTLNE"
+    },
+    {
+      "id": "wof-bn-002",
+      "category": "Hacker Phrase",
+      "answer": "COMMAND INJECTION",
+      "tier": 2,
+      "letterCount": 16,
+      "wordCount": 2,
+      "notes": "Bonus: OWASP vulnerability type"
+    },
+    {
+      "id": "wof-bn-003",
+      "category": "Notable Hacker",
+      "answer": "KEVIN POULSEN",
+      "tier": 3,
+      "letterCount": 12,
+      "wordCount": 2,
+      "notes": "Bonus: Dark Dante, hacked radio stations to win a Porsche"
+    },
+    {
+      "id": "wof-bn-004",
+      "category": "CVE Description",
+      "answer": "DIRTY PIPE",
+      "tier": 3,
+      "letterCount": 9,
+      "wordCount": 2,
+      "notes": "Bonus: Linux kernel arbitrary file overwrite, CVE-2022-0847"
+    },
+    {
+      "id": "wof-bn-005",
+      "category": "Security Tool",
+      "answer": "HYDRA",
+      "tier": 2,
+      "letterCount": 5,
+      "wordCount": 1,
+      "notes": "Bonus: fast network logon cracker, very short - hard with few letters"
+    },
+    {
+      "id": "wof-bn-006",
+      "category": "Hacker Phrase",
+      "answer": "COLD BOOT ATTACK",
+      "tier": 3,
+      "letterCount": 14,
+      "wordCount": 3,
+      "notes": "Bonus: extracting encryption keys from RAM after power-off"
+    },
+    {
+      "id": "wof-bn-007",
+      "category": "Tech Pioneer",
+      "answer": "MOXIE MARLINSPIKE",
+      "tier": 3,
+      "letterCount": 16,
+      "wordCount": 2,
+      "notes": "Bonus: Signal creator, cryptographer, sailor"
+    },
+    {
+      "id": "wof-bn-008",
+      "category": "Protocol",
+      "answer": "KERBEROS",
+      "tier": 3,
+      "letterCount": 8,
+      "wordCount": 1,
+      "notes": "Bonus: authentication protocol, three-headed dog, AD staple"
+    },
+    {
+      "id": "wof-bn-009",
+      "category": "Hacker Phrase",
+      "answer": "PIVOT POINT",
+      "tier": 2,
+      "letterCount": 10,
+      "wordCount": 2,
+      "notes": "Bonus: compromised host used to reach other network segments"
+    },
+    {
+      "id": "wof-bn-010",
+      "category": "Security Tool",
+      "answer": "GOBUSTER",
+      "tier": 3,
+      "letterCount": 8,
+      "wordCount": 1,
+      "notes": "Bonus: directory/file brute-forcing tool written in Go"
+    }
+  ]
+}
