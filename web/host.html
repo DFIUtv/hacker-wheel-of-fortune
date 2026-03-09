@@ -327,6 +327,7 @@ h3 { color: #4ade80; font-size: 0.9rem; margin-bottom: 0.3rem; }
     <div class="panel" style="margin-top: 1rem;">
       <h2>Last Spin</h2>
       <div id="last-spin-display" style="text-align:center; color:#666;">No spin yet</div>
+      <div id="speed-timer-display" style="display:none;text-align:center;margin-top:0.5rem;"></div>
     </div>
   </div>
 </div>
@@ -574,7 +575,6 @@ function render() {
     case 'awaiting_action':
     case 'awaiting_letter':
     case 'awaiting_vowel':
-    case 'root_access':
       document.getElementById('round-actions').style.display = 'block';
       document.getElementById('spin-btn').disabled =
         state.phase !== 'awaiting_action' || state.spinAnimating || state.speedRound;
@@ -658,6 +658,17 @@ function render() {
     case 'final_score':
       document.getElementById('final-actions').style.display = 'block';
       break;
+  }
+
+  // Speed round timer
+  const speedTimerEl = document.getElementById('speed-timer-display');
+  if (state.speedRound && state.speedTurnTimer != null) {
+    const urgent = state.speedTurnTimer <= 2;
+    speedTimerEl.style.display = 'block';
+    speedTimerEl.innerHTML = `<div style="font-size:2rem;font-weight:900;color:${urgent ? '#ef4444' : '#f59e0b'};">⏱ ${state.speedTurnTimer}s</div>
+      <div style="font-size:0.8rem;color:#888;">Speed: $${state.speedValue}/consonant</div>`;
+  } else {
+    speedTimerEl.style.display = 'none';
   }
 }
 

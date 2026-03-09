@@ -236,9 +236,6 @@ function createGameState() {
     // Mystery/0day state
     mysteryPending: false,  // player landed on mystery and got a correct letter
 
-    // Root access (express) state
-    rootAccess: false,
-
     // Used puzzle IDs to avoid repeats
     usedPuzzleIds: [],
 
@@ -367,7 +364,6 @@ function sanitizeState(g, clientInfo) {
     speedTurnTimer: g.speedTurnTimer,
     isPrizePuzzle: g.isPrizePuzzle,
     mysteryPending: g.mysteryPending,
-    rootAccess: g.rootAccess,
     buzzerConnected: g.buzzerConnected,
   };
 
@@ -463,8 +459,13 @@ function handleMessage(ws, msg) {
     case 'join': {
       info.role = msg.role || 'spectator';
       if (msg.role === 'player' && msg.name) {
-        // Add player if we have room
-        if (game.players.length < 3 && game.phase === 'lobby') {
+        // Check for rejoin by name (reconnection)
+        const existing = game.players.find(p => p.name === msg.name);
+        if (existing) {
+          info.playerId = existing.id;
+          sendTo(ws, { type: 'join-response', playerId: existing.id, name: existing.name });
+        } else if (game.players.length < 3 && game.phase === 'lobby') {
+          // Add new player if we have room
           const id = 'p' + (game.players.length + 1);
           game.players.push({
             id, name: msg.name,
@@ -472,6 +473,7 @@ function handleMessage(ws, msg) {
             hasSkeletonKey: false,
           });
           info.playerId = id;
+          sendTo(ws, { type: 'join-response', playerId: id, name: msg.name });
         }
       }
       sendState();
@@ -525,7 +527,7 @@ function handleMessage(ws, msg) {
 
     case 'call-letter': {
       if (info.role !== 'host') return;
-      if (game.phase !== 'awaiting_letter' && game.phase !== 'awaiting_vowel' && game.phase !== 'root_access') return;
+      if (game.phase !== 'awaiting_letter' && game.phase !== 'awaiting_vowel') return;
       const letter = (msg.letter || '').toUpperCase();
       if (!letter || letter.length !== 1) return;
       if (game.calledLetters.includes(letter)) return;
@@ -547,13 +549,12 @@ function handleMessage(ws, msg) {
 
     case 'solve-attempt': {
       if (info.role !== 'host') return;
-      if (!['awaiting_action', 'awaiting_letter', 'awaiting_vowel', 'root_access'].includes(game.phase)) return;
+      if (!['awaiting_action', 'awaiting_letter', 'awaiting_vowel'].includes(game.phase)) return;
       const guess = (msg.guess || '').toUpperCase().trim();
       if (guess === game.puzzle.answer) {
         solveCorrect();
       } else {
         // Wrong solve — turn passes
-        game.rootAccess = false;
         nextPlayer();
         game.phase = 'awaiting_action';
         broadcast({ type: 'event', event: 'wrong_solve' });
@@ -586,9 +587,12 @@ function handleMessage(ws, msg) {
     }
 
     case 'toss-up-buzz': {
-      if (info.role !== 'host') return;
+      if (info.role !== 'host' && info.role !== 'player') return;
       if (game.phase !== 'toss_up' || !game.tossUp.buzzerOpen) return;
-      game.tossUp.buzzedPlayer = msg.playerId || null;
+      // Players use their own ID; host passes a playerId
+      const buzzPlayerId = info.role === 'player' ? info.playerId : (msg.playerId || null);
+      if (!buzzPlayerId) return;
+      game.tossUp.buzzedPlayer = buzzPlayerId;
       game.tossUp.buzzerOpen = false;
       if (tossUpRevealTimer) { clearInterval(tossUpRevealTimer); tossUpRevealTimer = null; }
       game.phase = 'toss_up_solve';
@@ -815,7 +819,6 @@ function startMainRound(roundNum) {
   game.calledLetters = [];
   game.lastSpin = null;
   game.mysteryPending = false;
-  game.rootAccess = false;
   game.isPrizePuzzle = (roundNum === 3);
 
   // Reset round earnings
@@ -883,33 +886,10 @@ function processLetter(letter) {
       }
     } else {
       broadcast({ type: 'event', event: 'letter_miss', letter });
-      // Vowel miss: turn continues (no turn loss), money already deducted
+      // Vowel miss: lose turn, money already deducted
+      nextPlayer();
     }
     game.phase = 'awaiting_action';
-    return;
-  }
-
-  if (game.rootAccess) {
-    // Root access mode: consonants at $1000 each, vowels free
-    if (count > 0) {
-      game.revealedLetters.push(letter);
-      if (isConsonant) {
-        player.roundEarnings += 1000 * count;
-      }
-      broadcast({ type: 'event', event: 'letter_hit', letter, count });
-      if (isPuzzleSolved(answer, game.revealedLetters)) {
-        solveCorrect();
-        return;
-      }
-      // Stay in root_access, keep going
-    } else {
-      // Miss in root access = bankrupt!
-      player.roundEarnings = 0;
-      broadcast({ type: 'event', event: 'bankrupt', player: player.id });
-      game.rootAccess = false;
-      nextPlayer();
-      game.phase = 'awaiting_action';
-    }
     return;
   }
 
@@ -922,14 +902,17 @@ function processLetter(letter) {
       }
       broadcast({ type: 'event', event: 'letter_hit', letter, count });
       if (isPuzzleSolved(answer, game.revealedLetters)) {
+        if (speedTurnTimer) { clearInterval(speedTurnTimer); speedTurnTimer = null; }
         solveCorrect();
         return;
       }
       game.phase = 'awaiting_action';
+      startSpeedTurnTimer(); // reset timer for next action
     } else {
       broadcast({ type: 'event', event: 'letter_miss', letter });
       nextPlayer();
       game.phase = 'awaiting_action';
+      startSpeedTurnTimer(); // reset timer for next player
     }
     return;
   }
@@ -951,8 +934,11 @@ function processLetter(letter) {
     }
 
     if (wedge && wedge.type === 'free_play') {
-      // Free play: no money earned for the letter, but no penalty either
-      broadcast({ type: 'event', event: 'letter_hit', letter, count });
+      // Free play: $500 per consonant found, vowels free
+      if (isConsonant) {
+        player.roundEarnings += 500 * count;
+      }
+      broadcast({ type: 'event', event: 'letter_hit', letter, count, value: isConsonant ? 500 * count : 0 });
     } else if (wedge && wedge.type === 'skeleton_key') {
       // Skeleton key wedge: earn $500 per letter as a base
       player.roundEarnings += 500 * count;
@@ -984,7 +970,6 @@ function solveCorrect() {
   player.bank += player.roundEarnings;
   // Reveal all letters
   game.revealedLetters = game.puzzle.answer.split('').filter(ch => /[A-Z]/.test(ch));
-  game.rootAccess = false;
   game.mysteryPending = false;
 
   broadcast({ type: 'event', event: 'puzzle_solved', player: player.id, earnings: player.roundEarnings });
@@ -995,12 +980,33 @@ function startSpeedRound() {
   const result = spinWheel();
   game.speedRound = true;
   game.speedValue = (result.wedge.type === 'cash' ? result.wedge.value : 500) + 1000;
+  game.speedTurnTimer = 5;
   game.puzzle = selectPuzzle([2, 3]);
   game.revealedLetters = [];
   game.calledLetters = [];
   for (const p of game.players) p.roundEarnings = 0;
   game.phase = 'awaiting_action';
   broadcast({ type: 'event', event: 'speed_round', value: game.speedValue });
+  startSpeedTurnTimer();
+}
+
+function startSpeedTurnTimer() {
+  if (speedTurnTimer) { clearInterval(speedTurnTimer); speedTurnTimer = null; }
+  game.speedTurnTimer = 5;
+  speedTurnTimer = setInterval(() => {
+    game.speedTurnTimer--;
+    if (game.speedTurnTimer <= 0) {
+      clearInterval(speedTurnTimer);
+      speedTurnTimer = null;
+      // Time's up — pass turn
+      broadcast({ type: 'event', event: 'speed_timeout', player: game.players[game.currentPlayer]?.id });
+      nextPlayer();
+      game.phase = 'awaiting_action';
+      game.speedTurnTimer = 5;
+      startSpeedTurnTimer();
+    }
+    sendState();
+  }, 1000);
 }
 
 function startBonusRound() {

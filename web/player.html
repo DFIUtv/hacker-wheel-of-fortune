@@ -121,14 +121,15 @@ const WS_URL = `ws://${location.host}`;
 let ws = null;
 let state = null;
 let myPlayerId = null;
-let joined = false;
+let myPlayerName = localStorage.getItem('wof-player-name') || null;
+let joined = !!myPlayerName;
 
 function connect() {
   ws = new WebSocket(WS_URL);
   ws.onopen = () => {
-    if (joined && myPlayerId) {
-      // Reconnect
-      ws.send(JSON.stringify({ type: 'join', role: 'player', name: myPlayerId }));
+    if (joined && myPlayerName) {
+      // Reconnect with stored name
+      ws.send(JSON.stringify({ type: 'join', role: 'player', name: myPlayerName }));
     }
     renderContent();
   };
@@ -137,6 +138,12 @@ function connect() {
     if (msg.type === 'game-state') {
       state = msg.state;
       renderContent();
+    } else if (msg.type === 'join-response') {
+      // Server assigned our player ID
+      myPlayerId = msg.playerId;
+      myPlayerName = msg.name;
+      localStorage.setItem('wof-player-name', msg.name);
+      renderContent();
     }
   };
   ws.onclose = () => setTimeout(connect, 2000);
@@ -144,8 +151,9 @@ function connect() {
 
 function joinGame(name) {
   ws.send(JSON.stringify({ type: 'join', role: 'player', name }));
+  myPlayerName = name;
+  localStorage.setItem('wof-player-name', name);
   joined = true;
-  // We'll get our ID from the state
 }
 
 function buzz() {
@@ -179,15 +187,7 @@ function renderContent() {
     return;
   }
 
-  // Find our player
-  if (!myPlayerId) {
-    // Assume we're the last player added
-    if (state.players.length > 0) {
-      myPlayerId = state.players[state.players.length - 1].id;
-    }
-  }
-
-  const me = state.players.find(p => p.id === myPlayerId);
+  const me = myPlayerId ? state.players.find(p => p.id === myPlayerId) : null;
   if (!me) {
     el.innerHTML = '<div class="panel"><div class="status-msg">Waiting to be added to the game...</div></div>';
     return;
@@ -239,7 +239,6 @@ function renderContent() {
     case 'awaiting_letter':
     case 'awaiting_vowel':
     case 'mystery_choice':
-    case 'root_access':
       html += `
         <div class="panel">
           <div class="turn-indicator ${isMyTurn ? 'your-turn' : 'waiting'}">
